@@ -13,8 +13,40 @@
     tools:context="com.hujie.floatingactionbuttonpra.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="show"
+            android:id="@+id/show"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="dismiss"
+            android:id="@+id/dismiss"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="collapsed"
+            android:id="@+id/collapsed"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="expanded"
+            android:id="@+id/expanded"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="dialog"
+            android:id="@+id/dialog"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
 </RelativeLayout>
